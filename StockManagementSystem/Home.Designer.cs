@@ -1,0 +1,316 @@
+﻿namespace StockManagementSystem
+{
+    partial class Home
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.categoryMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.companyMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemSetupMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stockInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stockOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.searchItemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.searchByDateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userModifyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.SearchAndViewItemsSummaryButton = new System.Windows.Forms.Button();
+            this.ViewSalesBetweenTwoDatesButton = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.StockOutButton = new System.Windows.Forms.Button();
+            this.StockInButton = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ItemSetupButton = new System.Windows.Forms.Button();
+            this.CategorySetupButton = new System.Windows.Forms.Button();
+            this.CompanySetupButton = new System.Windows.Forms.Button();
+            this.menuStrip1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.categoryMenuItem,
+            this.companyMenuItem,
+            this.itemSetupMenuItem,
+            this.stockInToolStripMenuItem,
+            this.stockOutToolStripMenuItem,
+            this.searchItemToolStripMenuItem,
+            this.searchByDateToolStripMenuItem,
+            this.userModifyToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(795, 33);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // categoryMenuItem
+            // 
+            this.categoryMenuItem.BackColor = System.Drawing.SystemColors.Control;
+            this.categoryMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.categoryMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.categoryMenuItem.Name = "categoryMenuItem";
+            this.categoryMenuItem.Size = new System.Drawing.Size(163, 29);
+            this.categoryMenuItem.Text = "Category Setup";
+            this.categoryMenuItem.Click += new System.EventHandler(this.categoryMenuItem_Click);
+            // 
+            // companyMenuItem
+            // 
+            this.companyMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.companyMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.companyMenuItem.Name = "companyMenuItem";
+            this.companyMenuItem.Size = new System.Drawing.Size(166, 29);
+            this.companyMenuItem.Text = "Company Setup";
+            this.companyMenuItem.Click += new System.EventHandler(this.companyMenuItem_Click);
+            // 
+            // itemSetupMenuItem
+            // 
+            this.itemSetupMenuItem.BackColor = System.Drawing.SystemColors.Control;
+            this.itemSetupMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.itemSetupMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.itemSetupMenuItem.Name = "itemSetupMenuItem";
+            this.itemSetupMenuItem.Size = new System.Drawing.Size(121, 29);
+            this.itemSetupMenuItem.Text = "Item Setup";
+            this.itemSetupMenuItem.Click += new System.EventHandler(this.itemSetupMenuItem_Click);
+            // 
+            // stockInToolStripMenuItem
+            // 
+            this.stockInToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stockInToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.stockInToolStripMenuItem.Name = "stockInToolStripMenuItem";
+            this.stockInToolStripMenuItem.Size = new System.Drawing.Size(97, 29);
+            this.stockInToolStripMenuItem.Text = "Stock In";
+            this.stockInToolStripMenuItem.Click += new System.EventHandler(this.stockInToolStripMenuItem_Click);
+            // 
+            // stockOutToolStripMenuItem
+            // 
+            this.stockOutToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
+            this.stockOutToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stockOutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.stockOutToolStripMenuItem.Name = "stockOutToolStripMenuItem";
+            this.stockOutToolStripMenuItem.Size = new System.Drawing.Size(112, 29);
+            this.stockOutToolStripMenuItem.Text = "Stock Out";
+            this.stockOutToolStripMenuItem.Click += new System.EventHandler(this.stockOutToolStripMenuItem_Click);
+            // 
+            // searchItemToolStripMenuItem
+            // 
+            this.searchItemToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchItemToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.searchItemToolStripMenuItem.Name = "searchItemToolStripMenuItem";
+            this.searchItemToolStripMenuItem.Size = new System.Drawing.Size(128, 29);
+            this.searchItemToolStripMenuItem.Text = "Search Item";
+            this.searchItemToolStripMenuItem.Click += new System.EventHandler(this.searchItemToolStripMenuItem_Click);
+            // 
+            // searchByDateToolStripMenuItem
+            // 
+            this.searchByDateToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchByDateToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.searchByDateToolStripMenuItem.Name = "searchByDateToolStripMenuItem";
+            this.searchByDateToolStripMenuItem.Size = new System.Drawing.Size(156, 29);
+            this.searchByDateToolStripMenuItem.Text = "Search By Date";
+            this.searchByDateToolStripMenuItem.Click += new System.EventHandler(this.searchByDateToolStripMenuItem_Click);
+            // 
+            // userModifyToolStripMenuItem
+            // 
+            this.userModifyToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userModifyToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.userModifyToolStripMenuItem.Name = "userModifyToolStripMenuItem";
+            this.userModifyToolStripMenuItem.Size = new System.Drawing.Size(133, 29);
+            this.userModifyToolStripMenuItem.Text = "User Modify";
+            this.userModifyToolStripMenuItem.Click += new System.EventHandler(this.userModifyToolStripMenuItem_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(92, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(629, 37);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Welcome To Stock Management System";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.SearchAndViewItemsSummaryButton);
+            this.groupBox3.Controls.Add(this.ViewSalesBetweenTwoDatesButton);
+            this.groupBox3.Location = new System.Drawing.Point(384, 284);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(291, 121);
+            this.groupBox3.TabIndex = 5;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "View Report";
+            // 
+            // SearchAndViewItemsSummaryButton
+            // 
+            this.SearchAndViewItemsSummaryButton.Location = new System.Drawing.Point(44, 27);
+            this.SearchAndViewItemsSummaryButton.Name = "SearchAndViewItemsSummaryButton";
+            this.SearchAndViewItemsSummaryButton.Size = new System.Drawing.Size(203, 23);
+            this.SearchAndViewItemsSummaryButton.TabIndex = 0;
+            this.SearchAndViewItemsSummaryButton.Text = "Search And View Items Summary";
+            this.SearchAndViewItemsSummaryButton.UseVisualStyleBackColor = true;
+            this.SearchAndViewItemsSummaryButton.Click += new System.EventHandler(this.SearchAndViewItemsSummaryButton_Click);
+            // 
+            // ViewSalesBetweenTwoDatesButton
+            // 
+            this.ViewSalesBetweenTwoDatesButton.Location = new System.Drawing.Point(44, 75);
+            this.ViewSalesBetweenTwoDatesButton.Name = "ViewSalesBetweenTwoDatesButton";
+            this.ViewSalesBetweenTwoDatesButton.Size = new System.Drawing.Size(203, 23);
+            this.ViewSalesBetweenTwoDatesButton.TabIndex = 0;
+            this.ViewSalesBetweenTwoDatesButton.Text = "View Sales Between Two Dates";
+            this.ViewSalesBetweenTwoDatesButton.UseVisualStyleBackColor = true;
+            this.ViewSalesBetweenTwoDatesButton.Click += new System.EventHandler(this.ViewSalesBetweenTwoDatesButton_Click);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.StockOutButton);
+            this.groupBox2.Controls.Add(this.StockInButton);
+            this.groupBox2.Location = new System.Drawing.Point(384, 195);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(291, 74);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Stock Entry";
+            // 
+            // StockOutButton
+            // 
+            this.StockOutButton.Location = new System.Drawing.Point(154, 27);
+            this.StockOutButton.Name = "StockOutButton";
+            this.StockOutButton.Size = new System.Drawing.Size(110, 23);
+            this.StockOutButton.TabIndex = 0;
+            this.StockOutButton.Text = "Stock Out";
+            this.StockOutButton.UseVisualStyleBackColor = true;
+            this.StockOutButton.Click += new System.EventHandler(this.StockOutButton_Click);
+            // 
+            // StockInButton
+            // 
+            this.StockInButton.Location = new System.Drawing.Point(23, 27);
+            this.StockInButton.Name = "StockInButton";
+            this.StockInButton.Size = new System.Drawing.Size(110, 23);
+            this.StockInButton.TabIndex = 0;
+            this.StockInButton.Text = "Stock In";
+            this.StockInButton.UseVisualStyleBackColor = true;
+            this.StockInButton.Click += new System.EventHandler(this.StockInButton_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.ItemSetupButton);
+            this.groupBox1.Controls.Add(this.CategorySetupButton);
+            this.groupBox1.Controls.Add(this.CompanySetupButton);
+            this.groupBox1.Location = new System.Drawing.Point(160, 195);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(172, 210);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Setup Input";
+            // 
+            // ItemSetupButton
+            // 
+            this.ItemSetupButton.Location = new System.Drawing.Point(29, 153);
+            this.ItemSetupButton.Name = "ItemSetupButton";
+            this.ItemSetupButton.Size = new System.Drawing.Size(112, 23);
+            this.ItemSetupButton.TabIndex = 0;
+            this.ItemSetupButton.Text = "Item Setup";
+            this.ItemSetupButton.UseVisualStyleBackColor = true;
+            this.ItemSetupButton.Click += new System.EventHandler(this.ItemSetupButton_Click);
+            // 
+            // CategorySetupButton
+            // 
+            this.CategorySetupButton.Location = new System.Drawing.Point(29, 27);
+            this.CategorySetupButton.Name = "CategorySetupButton";
+            this.CategorySetupButton.Size = new System.Drawing.Size(110, 23);
+            this.CategorySetupButton.TabIndex = 0;
+            this.CategorySetupButton.Text = "Category Setup";
+            this.CategorySetupButton.UseVisualStyleBackColor = true;
+            this.CategorySetupButton.Click += new System.EventHandler(this.CategorySetupButton_Click);
+            // 
+            // CompanySetupButton
+            // 
+            this.CompanySetupButton.Location = new System.Drawing.Point(29, 89);
+            this.CompanySetupButton.Name = "CompanySetupButton";
+            this.CompanySetupButton.Size = new System.Drawing.Size(110, 23);
+            this.CompanySetupButton.TabIndex = 0;
+            this.CompanySetupButton.Text = "Company Setup";
+            this.CompanySetupButton.UseVisualStyleBackColor = true;
+            this.CompanySetupButton.Click += new System.EventHandler(this.CompanySetupButton_Click);
+            // 
+            // Home
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.ClientSize = new System.Drawing.Size(795, 600);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Home";
+            this.Text = "Admin panel";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Home_FormClosed);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem categoryMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem companyMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem itemSetupMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stockInToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stockOutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem searchItemToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem searchByDateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem userModifyToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button SearchAndViewItemsSummaryButton;
+        private System.Windows.Forms.Button ViewSalesBetweenTwoDatesButton;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button StockOutButton;
+        private System.Windows.Forms.Button StockInButton;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button ItemSetupButton;
+        private System.Windows.Forms.Button CategorySetupButton;
+        private System.Windows.Forms.Button CompanySetupButton;
+    }
+}
