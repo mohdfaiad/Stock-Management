@@ -12,7 +12,7 @@ namespace StockManagementSystem.DAL
     public class DBLoginRepository
     {
 
-        static string conString = @"Server=PC-301-04\SQLEXPRESS; Database=StockManagement; Integrated Security=true";
+        static string conString = @"Server=SAGAR-PC\SQLEXPRESS; Database=StockManagement; Integrated Security=true";
         SqlConnection con = new SqlConnection(conString);
 
 

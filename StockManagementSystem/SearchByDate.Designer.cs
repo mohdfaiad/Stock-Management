@@ -39,7 +39,6 @@
             this.itemNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sellQuantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.searchItemByDateBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.PdfButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.showGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchItemByDateBindingSource)).BeginInit();
@@ -130,17 +129,6 @@
             // 
             this.searchItemByDateBindingSource.DataSource = typeof(StockManagementSystem.Model.SearchItemByDate);
             // 
-            // PdfButton
-            // 
-            this.PdfButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PdfButton.Location = new System.Drawing.Point(552, 439);
-            this.PdfButton.Name = "PdfButton";
-            this.PdfButton.Size = new System.Drawing.Size(113, 33);
-            this.PdfButton.TabIndex = 2;
-            this.PdfButton.Text = "Create PDF";
-            this.PdfButton.UseVisualStyleBackColor = true;
-            this.PdfButton.Click += new System.EventHandler(this.PdfButton_Click);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -159,7 +147,6 @@
             this.ClientSize = new System.Drawing.Size(749, 495);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.showGridView);
-            this.Controls.Add(this.PdfButton);
             this.Controls.Add(this.SearchButton);
             this.Controls.Add(this.toDateTimePiker);
             this.Controls.Add(this.fromDateTimePicker);
@@ -186,7 +173,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn itemNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn sellQuantityDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource searchItemByDateBindingSource;
-        private System.Windows.Forms.Button PdfButton;
         private System.Windows.Forms.Label label3;
     }
 }

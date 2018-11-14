@@ -110,7 +110,7 @@ namespace StockManagementSystem
             int isSaved = itemManage.SaveAll(item);
             if (isSaved > 0)
             {
-                UserStatusSave(item);
+                
                 MessageBox.Show("Saved Successfull");
             }
             else
@@ -118,17 +118,7 @@ namespace StockManagementSystem
                 MessageBox.Show("Something Wrong into Database");
             }
         }
-        private void UserStatusSave(Item item)
-        {
-            UserStatus userStatus = new UserStatus()
-            {
-                UserId = userIdd,
-                ChangeType = "Add " + item.ItemName+" Item",
-                ExecuteTime = DateTime.Now,
-            };
-            UserStatusManage userStatusManage = new UserStatusManage();
-            userStatusManage.SaveUserStatus(userStatus);
-        }
+       
         private bool CheckNullTextBox()
         {
             if (itemName.Trim().Equals(String.Empty) || companyId==0 || categoryId==0)

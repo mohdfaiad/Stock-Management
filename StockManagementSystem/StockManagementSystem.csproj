@@ -66,7 +66,6 @@
     <Compile Include="DAL\DBSearchRepository.cs" />
     <Compile Include="DAL\DBStockInRepository.cs" />
     <Compile Include="DAL\DBStockOutRepository.cs" />
-    <Compile Include="DAL\DBUserStatusRepository.cs" />
     <Compile Include="DLL\CategoryManage.cs" />
     <Compile Include="DLL\CompanyManage.cs" />
     <Compile Include="CategorySetup.cs">
@@ -80,7 +79,6 @@
     <Compile Include="DLL\SearchItemManage.cs" />
     <Compile Include="DLL\StockInManage.cs" />
     <Compile Include="DLL\StockOutManage.cs" />
-    <Compile Include="DLL\UserStatusManage.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,7 +104,6 @@
     <Compile Include="Model\SearchItemByDate.cs" />
     <Compile Include="Model\StockOutItem.cs" />
     <Compile Include="Model\TakeSearchItem.cs" />
-    <Compile Include="Model\UserStatus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchByDate.cs">
@@ -121,12 +118,6 @@
     <Compile Include="SearchItem.Designer.cs">
       <DependentUpon>SearchItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="Start.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Start.Designer.cs">
-      <DependentUpon>Start.cs</DependentUpon>
-    </Compile>
     <Compile Include="StockIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,12 +129,6 @@
     </Compile>
     <Compile Include="StockOut.Designer.cs">
       <DependentUpon>StockOut.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserInformation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserInformation.Designer.cs">
-      <DependentUpon>UserInformation.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CompanySetup.resx">
       <DependentUpon>CompanySetup.cs</DependentUpon>
@@ -175,17 +160,11 @@
     <EmbeddedResource Include="SearchItem.resx">
       <DependentUpon>SearchItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Start.resx">
-      <DependentUpon>Start.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="StockIn.resx">
       <DependentUpon>StockIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StockOut.resx">
       <DependentUpon>StockOut.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserInformation.resx">
-      <DependentUpon>UserInformation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\DataSources\StockManagementSystem.Model.Category.datasource" />
     <None Include="Properties\DataSources\StockManagementSystem.Model.Company.datasource" />

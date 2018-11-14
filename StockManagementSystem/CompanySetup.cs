@@ -14,11 +14,11 @@ namespace StockManagementSystem
 {
     public partial class CompanySetup : Form
     {
+        Company company = new Company();
         int userIdd = 0;
-        public CompanySetup(int userId)
+        public CompanySetup()
         {
             InitializeComponent();
-            this.userIdd = userId;
             UpdateButton2.Visible = false;
             this.showCompanyGridView.Columns[1].Visible = false;
             ShowAllData();
@@ -42,10 +42,8 @@ namespace StockManagementSystem
 
         private void CheckDuplicateCompany()
         {
-            Company company = new Company()
-            {
-                CompanyName = CompanyName
-            };
+            
+            company.CompanyName = companyName;
             bool check = companyManage.CheckDuplecateCompany(company);
             if (!check)
             {
@@ -64,7 +62,7 @@ namespace StockManagementSystem
             if (isSaved > 0)
             {
                 addOrUpdate = "Add";
-                UserStatusSave(company);
+                
                 MessageBox.Show("Saved Successfull");
                 ShowAllData();
             }
@@ -74,18 +72,7 @@ namespace StockManagementSystem
             }
         }
         string addOrUpdate = String.Empty;
-        private void UserStatusSave(Company company)
-        {
-            UserStatus userStatus = new UserStatus()
-            {
-                UserId = userIdd,
-                ChangeType = addOrUpdate+" " + company.CompanyName + " Company",
-                ExecuteTime = DateTime.Now,
-            };
-            UserStatusManage userStatusManage = new UserStatusManage();
-            userStatusManage.SaveUserStatus(userStatus);
-        }
-
+       
         private void ShowAllData()
         {
             showCompanyGridView.ReadOnly = true;
@@ -190,7 +177,7 @@ namespace StockManagementSystem
             if (isSaved > 0)
             {
                 addOrUpdate = "Update";
-                UserStatusSave(company);
+                
                 MessageBox.Show("Update Successfull");
                 UpdateButton2.Visible = false;
                 ShowAllData();

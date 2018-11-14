@@ -58,11 +58,11 @@
             // 
             // categoryTextBox
             // 
-            this.categoryTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.categoryTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.categoryTextBox.Location = new System.Drawing.Point(241, 128);
             this.categoryTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.categoryTextBox.Name = "categoryTextBox";
-            this.categoryTextBox.Size = new System.Drawing.Size(278, 26);
+            this.categoryTextBox.Size = new System.Drawing.Size(278, 24);
             this.categoryTextBox.TabIndex = 1;
             // 
             // SaveButton
@@ -92,7 +92,7 @@
             this.showCategoryGridView.Location = new System.Drawing.Point(43, 221);
             this.showCategoryGridView.Margin = new System.Windows.Forms.Padding(4);
             this.showCategoryGridView.Name = "showCategoryGridView";
-            this.showCategoryGridView.Size = new System.Drawing.Size(603, 256);
+            this.showCategoryGridView.Size = new System.Drawing.Size(603, 233);
             this.showCategoryGridView.TabIndex = 3;
             this.showCategoryGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.showCategoryGridView_CellContentClick);
             this.showCategoryGridView.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.showCategoryGridView_CellContentDoubleClick);

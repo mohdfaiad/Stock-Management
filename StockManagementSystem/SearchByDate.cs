@@ -54,48 +54,6 @@ namespace StockManagementSystem
                 showGridView.DataSource = itemList;
             }
         }
-
-        private void PdfButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Document doc = new Document(iTextSharp.text.PageSize.LETTER, 10, 10, 42, 35);
-                PdfWriter wri = PdfWriter.GetInstance(doc, new FileStream(DateTime.Now+"Text.pdf", FileMode.Create));
-                doc.Open();
-                Paragraph para = new Paragraph("Search Items");
-                para.IndentationLeft = 244f;
-                doc.Add(para);
-                //doc.Close();
-
-                PdfPTable table = new PdfPTable(showGridView.Columns.Count);
-                for (int i = 0; i < showGridView.Columns.Count; i++)
-                {
-                    table.AddCell(new Phrase(showGridView.Columns[i].HeaderText));
-                }
-                table.HeaderRows = 1;
-
-                for (int i = 0; i < showGridView.Rows.Count; i++)
-                {
-                    for (int j = 0; j < showGridView.Columns.Count; j++)
-                    {
-                        if (showGridView[j, i].Value != null)
-                        {
-                            table.AddCell(new Phrase(showGridView[j, i].Value.ToString()));
-                        }
-                    }
-                }
-                doc.Add(table);
-                doc.Close();
-                MessageBox.Show("PDF Download complete");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Data Table is null");
-                
-            }
-            
-        }
-
-        
+       
     }
 }

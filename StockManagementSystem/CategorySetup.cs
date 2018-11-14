@@ -15,10 +15,9 @@ namespace StockManagementSystem
     public partial class CategorySetup : Form
     {
         int userIdd = 0;
-        public CategorySetup(int userId)
+        public CategorySetup()
         {
             InitializeComponent();
-            this.userIdd = userId;
             UpdateButton2.Visible = false;
             this.showCategoryGridView.Columns[1].Visible = false;
             ShowAllData();
@@ -63,7 +62,7 @@ namespace StockManagementSystem
             if (isSaved > 0)
             {
                 addOrUpdate = "Add";
-                UserStatusSave(category);
+                
                 MessageBox.Show("Saved Successfull");
                 ShowAllData();
             }
@@ -73,17 +72,7 @@ namespace StockManagementSystem
             }
         }
         string addOrUpdate = String.Empty;
-        private void UserStatusSave(Category category)
-        {
-            UserStatus userStatus = new UserStatus()
-            {
-                UserId = userIdd,
-                ChangeType = addOrUpdate+" " + category.CategoryName + " Category",
-                ExecuteTime = DateTime.Now,
-            };
-            UserStatusManage userStatusManage = new UserStatusManage();
-            userStatusManage.SaveUserStatus(userStatus);
-        }
+        
         private void ShowAllData()
         {
             showCategoryGridView.ReadOnly = true;
@@ -187,7 +176,7 @@ namespace StockManagementSystem
             if (isSaved > 0)
             {
                 addOrUpdate = "Update";
-                UserStatusSave(category);
+                
                 MessageBox.Show("Update Successfull");
                 UpdateButton2.Visible = false;
                 ShowAllData();

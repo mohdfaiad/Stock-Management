@@ -110,7 +110,7 @@ namespace StockManagementSystem
             bool isSaved = stockInManage.SaveData(value);
             if (isSaved)
             {
-                UserStatusSave(value);
+                
                 MessageBox.Show("Update Successfull");
                
             }
@@ -119,17 +119,7 @@ namespace StockManagementSystem
                 MessageBox.Show("Something wrong");
             }
         }
-        private void UserStatusSave(Item item)
-        {
-            UserStatus userStatus = new UserStatus()
-            {
-                UserId = userIdd,
-                ChangeType = "Update " + item.ItemName + " Item",
-                ExecuteTime = DateTime.Now,
-            };
-            UserStatusManage userStatusManage = new UserStatusManage();
-            userStatusManage.SaveUserStatus(userStatus);
-        }
+        
         private void companyNameComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             int companyIdtake =Convert.ToInt32(companyNameComboBox.SelectedValue);

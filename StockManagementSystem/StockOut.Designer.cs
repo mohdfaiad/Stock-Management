@@ -65,7 +65,7 @@
             // 
             this.AddButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddButton.Location = new System.Drawing.Point(630, 308);
-            this.AddButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddButton.Margin = new System.Windows.Forms.Padding(4);
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(99, 38);
             this.AddButton.TabIndex = 14;
@@ -77,7 +77,7 @@
             // 
             this.stockOutQuantityTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stockOutQuantityTextBox.Location = new System.Drawing.Point(432, 268);
-            this.stockOutQuantityTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.stockOutQuantityTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.stockOutQuantityTextBox.Name = "stockOutQuantityTextBox";
             this.stockOutQuantityTextBox.Size = new System.Drawing.Size(296, 22);
             this.stockOutQuantityTextBox.TabIndex = 11;
@@ -88,7 +88,7 @@
             this.availabeQuantityTextBox.Enabled = false;
             this.availabeQuantityTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.availabeQuantityTextBox.Location = new System.Drawing.Point(432, 214);
-            this.availabeQuantityTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.availabeQuantityTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.availabeQuantityTextBox.Name = "availabeQuantityTextBox";
             this.availabeQuantityTextBox.Size = new System.Drawing.Size(296, 22);
             this.availabeQuantityTextBox.TabIndex = 12;
@@ -98,7 +98,7 @@
             this.reorderLevelTextBox.Enabled = false;
             this.reorderLevelTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reorderLevelTextBox.Location = new System.Drawing.Point(432, 160);
-            this.reorderLevelTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.reorderLevelTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.reorderLevelTextBox.Name = "reorderLevelTextBox";
             this.reorderLevelTextBox.Size = new System.Drawing.Size(296, 22);
             this.reorderLevelTextBox.TabIndex = 13;
@@ -110,7 +110,7 @@
             this.itemNameComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.itemNameComboBox.FormattingEnabled = true;
             this.itemNameComboBox.Location = new System.Drawing.Point(432, 106);
-            this.itemNameComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.itemNameComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.itemNameComboBox.Name = "itemNameComboBox";
             this.itemNameComboBox.Size = new System.Drawing.Size(296, 24);
             this.itemNameComboBox.TabIndex = 9;
@@ -128,7 +128,7 @@
             this.companyNameComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.companyNameComboBox.FormattingEnabled = true;
             this.companyNameComboBox.Location = new System.Drawing.Point(432, 50);
-            this.companyNameComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.companyNameComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.companyNameComboBox.Name = "companyNameComboBox";
             this.companyNameComboBox.Size = new System.Drawing.Size(296, 24);
             this.companyNameComboBox.TabIndex = 10;
@@ -209,7 +209,7 @@
             this.DeleteButton});
             this.addItemDataGridView.DataSource = this.stockOutItemBindingSource;
             this.addItemDataGridView.Location = new System.Drawing.Point(68, 370);
-            this.addItemDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addItemDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.addItemDataGridView.Name = "addItemDataGridView";
             this.addItemDataGridView.RowHeadersVisible = false;
             this.addItemDataGridView.Size = new System.Drawing.Size(759, 208);
@@ -268,10 +268,10 @@
             // SellButton
             // 
             this.SellButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SellButton.Location = new System.Drawing.Point(401, 587);
-            this.SellButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SellButton.Location = new System.Drawing.Point(401, 600);
+            this.SellButton.Margin = new System.Windows.Forms.Padding(4);
             this.SellButton.Name = "SellButton";
-            this.SellButton.Size = new System.Drawing.Size(84, 52);
+            this.SellButton.Size = new System.Drawing.Size(84, 39);
             this.SellButton.TabIndex = 16;
             this.SellButton.Text = "Sell";
             this.SellButton.UseVisualStyleBackColor = true;
@@ -280,10 +280,10 @@
             // DamageButton
             // 
             this.DamageButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DamageButton.Location = new System.Drawing.Point(550, 587);
-            this.DamageButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DamageButton.Location = new System.Drawing.Point(550, 600);
+            this.DamageButton.Margin = new System.Windows.Forms.Padding(4);
             this.DamageButton.Name = "DamageButton";
-            this.DamageButton.Size = new System.Drawing.Size(101, 52);
+            this.DamageButton.Size = new System.Drawing.Size(101, 39);
             this.DamageButton.TabIndex = 16;
             this.DamageButton.Text = "Damage";
             this.DamageButton.UseVisualStyleBackColor = true;
@@ -292,10 +292,10 @@
             // LostButton
             // 
             this.LostButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LostButton.Location = new System.Drawing.Point(726, 587);
-            this.LostButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LostButton.Location = new System.Drawing.Point(726, 600);
+            this.LostButton.Margin = new System.Windows.Forms.Padding(4);
             this.LostButton.Name = "LostButton";
-            this.LostButton.Size = new System.Drawing.Size(84, 52);
+            this.LostButton.Size = new System.Drawing.Size(84, 39);
             this.LostButton.TabIndex = 16;
             this.LostButton.Text = "Lost";
             this.LostButton.UseVisualStyleBackColor = true;
@@ -304,11 +304,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(331, 11);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(252, 24);
+            this.label6.Size = new System.Drawing.Size(218, 20);
             this.label6.TabIndex = 17;
             this.label6.Text = "Stock Out As Your Choice";
             // 
@@ -335,7 +335,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StockOut";
             this.Text = "StockOut";
             this.Load += new System.EventHandler(this.StockOut_Load);
